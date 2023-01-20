@@ -20,6 +20,8 @@ body {
   overflow: auto;
   scroll-snap-type: y mandatory;
   border-radius: 5px;
+  overflow: scroll;
+  overflow-y: hidden;
 }
 
 .gallery img {
