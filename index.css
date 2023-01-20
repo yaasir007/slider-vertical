@@ -32,4 +32,10 @@ body {
   flex-shrink: 0;
   object-fit: cover;
   scroll-snap-align: start;
+  filter: blur(5px);
+  transition: all .2s ease-in;
+}
+
+.gallery img:hover {
+  filter: blur(0px);
 }
